@@ -20,7 +20,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    setUpVideo()
+        
+        setUpVideo()
+        setUpElements()
+        
         
     }
     
@@ -46,6 +49,13 @@ class ViewController: UIViewController {
     }
     @objc func playerItemDidReachEnd() {
         videoPlayer!.seek(to: CMTime.zero)
+    }
+    
+    func setUpElements() {
+        
+        Utilities.styleFilledButton(signUpButton)
+        Utilities.styleHollowButton(LoginButton)
+        
     }
     
 }

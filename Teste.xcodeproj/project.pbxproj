@@ -18,6 +18,7 @@
 		81AD385A2316EF64006D7B3B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AD38592316EF64006D7B3B /* HomeViewController.swift */; };
 		81AD385C23170578006D7B3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81AD385B23170578006D7B3B /* GoogleService-Info.plist */; };
 		81BA1A9C23350B4F004D4D5D /* Piggy - 12922.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81BA1A9B23350B4F004D4D5D /* Piggy - 12922.mp4 */; };
+		81BA1A9E23354087004D4D5D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BA1A9D23354086004D4D5D /* Utilities.swift */; };
 		81D7D33323180FB300D1F43C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7D33223180FB300D1F43C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		81AD38592316EF64006D7B3B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		81AD385B23170578006D7B3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		81BA1A9B23350B4F004D4D5D /* Piggy - 12922.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Piggy - 12922.mp4"; sourceTree = "<group>"; };
+		81BA1A9D23354086004D4D5D /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		81D7D33223180FB300D1F43C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DF2D173F0F729384403D977A /* Pods-Teste.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste.release.xcconfig"; path = "Target Support Files/Pods-Teste/Pods-Teste.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				81D7D33223180FB300D1F43C /* Constants.swift */,
+				81BA1A9D23354086004D4D5D /* Utilities.swift */,
 			);
 			path = HELPs;
 			sourceTree = "<group>";
@@ -249,6 +252,7 @@
 			files = (
 				81AD385A2316EF64006D7B3B /* HomeViewController.swift in Sources */,
 				81AD38562316EEFA006D7B3B /* LoginViewController.swift in Sources */,
+				81BA1A9E23354087004D4D5D /* Utilities.swift in Sources */,
 				81AD38452316EEC0006D7B3B /* ViewController.swift in Sources */,
 				81AD38582316EF0E006D7B3B /* SignUpViewController.swift in Sources */,
 				81AD38432316EEC0006D7B3B /* AppDelegate.swift in Sources */,

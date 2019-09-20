@@ -29,6 +29,12 @@ class SignUpViewController: UIViewController {
     }
     func setUpElements() {
         errorLabel.alpha = 0
+        
+        Utilities.styleTextField(firstNameTextField)
+        Utilities.styleTextField(lastNameTextField)
+        Utilities.styleTextField(emailTextField)
+        Utilities.styleTextField(passwordTextField)
+        Utilities.styleFilledButton(signUpButton)
     }
     
     //Verifica os campos e valida se os dados estao corretos. Se estiver tudo correto, o metodo retorna nil, se nao, retorna a mensagem de erro

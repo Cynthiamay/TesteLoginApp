@@ -25,13 +25,17 @@ class LoginViewController: UIViewController {
         //esconder o erro por enquanto
         setUpElements()
         
-        usernameTextField.attributedPlaceholder = NSAttributedString(string: "placeholder text",
-                                                               attributes: [NSAttributedString.Key.foregroundColor: UIColor.red])
+        //usernameTextField.attributedPlaceholder = NSAttributedString(string: "placeholder text",
+                                                               //attributes: [NSAttributedString.Key.foregroundColor: UIColor.red])
         
         
     }
     func setUpElements() {
         errorLabel.alpha = 0
+        
+        Utilities.styleTextField(usernameTextField)
+        Utilities.styleTextField(passwordTextField)
+        Utilities.styleFilledButton(loginButton)
     }
  
     @IBAction func loginButtonTapped(_ sender: Any) {
