@@ -24,6 +24,11 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
         //esconder o erro por enquanto
         setUpElements()
+        
+        usernameTextField.attributedPlaceholder = NSAttributedString(string: "placeholder text",
+                                                               attributes: [NSAttributedString.Key.foregroundColor: UIColor.red])
+        
+        
     }
     func setUpElements() {
         errorLabel.alpha = 0
@@ -37,6 +42,7 @@ class LoginViewController: UIViewController {
         let username = usernameTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
         let password = passwordTextField.text!.trimmingCharacters(in: .whitespacesAndNewlines)
         
+        //usernameTextField.attributedPlaceholder = NSAttributedString(string: "placeholder", attributes: [NSAttributedString.Key.foregroundColor: UIColor.blue])
         //entrando com o usuário
         Auth.auth().signIn(withEmail: username, password: password){ (result, error) in
             

@@ -17,6 +17,7 @@
 		81AD38582316EF0E006D7B3B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AD38572316EF0E006D7B3B /* SignUpViewController.swift */; };
 		81AD385A2316EF64006D7B3B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81AD38592316EF64006D7B3B /* HomeViewController.swift */; };
 		81AD385C23170578006D7B3B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81AD385B23170578006D7B3B /* GoogleService-Info.plist */; };
+		81BA1A9C23350B4F004D4D5D /* Piggy - 12922.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 81BA1A9B23350B4F004D4D5D /* Piggy - 12922.mp4 */; };
 		81D7D33323180FB300D1F43C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D7D33223180FB300D1F43C /* Constants.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,6 +35,7 @@
 		81AD38572316EF0E006D7B3B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		81AD38592316EF64006D7B3B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		81AD385B23170578006D7B3B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		81BA1A9B23350B4F004D4D5D /* Piggy - 12922.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Piggy - 12922.mp4"; sourceTree = "<group>"; };
 		81D7D33223180FB300D1F43C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DF2D173F0F729384403D977A /* Pods-Teste.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Teste.release.xcconfig"; path = "Target Support Files/Pods-Teste/Pods-Teste.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +83,7 @@
 			children = (
 				81D7D33123180F8800D1F43C /* HELPs */,
 				81AD38422316EEC0006D7B3B /* AppDelegate.swift */,
+				81BA1A982334FF4B004D4D5D /* Video */,
 				81AD38542316EED8006D7B3B /* ViewControllers */,
 				81AD38462316EEC1006D7B3B /* Main.storyboard */,
 				81AD38492316EECD006D7B3B /* Assets.xcassets */,
@@ -100,6 +103,14 @@
 				81AD38442316EEC0006D7B3B /* ViewController.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		81BA1A982334FF4B004D4D5D /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				81BA1A9B23350B4F004D4D5D /* Piggy - 12922.mp4 */,
+			);
+			path = Video;
 			sourceTree = "<group>";
 		};
 		81D7D33123180F8800D1F43C /* HELPs */ = {
@@ -183,6 +194,7 @@
 				81AD385C23170578006D7B3B /* GoogleService-Info.plist in Resources */,
 				81AD384A2316EECD006D7B3B /* Assets.xcassets in Resources */,
 				81AD38482316EEC1006D7B3B /* Main.storyboard in Resources */,
+				81BA1A9C23350B4F004D4D5D /* Piggy - 12922.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
